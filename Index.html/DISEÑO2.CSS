@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Cambia "Arial" a la fuente que desees utilizar */
+}
+
+/* Estilos para la sección "Acerca de" */
+.about-section {
+    background-color: #111; /* Fondo negro */
+    color: #f0f0f0; /* Texto blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    height: 100vh; /* Ocupar toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 300px; /* Tamaño de la foto más grande */
+    height: 250px; /* Tamaño de la foto más grande */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-section h2 {
+    color: #f0f0f0; /* Texto blanco */
+    margin: 10px 0 5px;
+}
+
+/* Otros estilos aquí */
+
+
+
